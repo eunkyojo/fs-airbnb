@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list-header>
+    <ion-title>
+      <ion-avatar>
+        <img src="https://i.ibb.co/4JmmM96/20190612.png">
+      </ion-avatar>
+      <h2>Hi, I'm {{user?.name}}</h2>
+    </ion-title>
+    <p><i>Joined in 2019</i></p>
+  </ion-list-header>
+
+  <div>
+    <h4>Contact</h4>
+    <p>Email: {{user?.email}}</p>
+    <p>Phone: +27123456789</p>
+  </div>
+
+  <div>
+    <h4>About</h4>
+    <p>Lives in Cape Town, South Africa</p>
+    <p>Number of bookings made: 7</p>
+    <p>Number of reviews received: 10</p>
+  </div>
+
+  <div>
+    <h4>Reviews</h4>
+    <p><b>visitor321</b> on <i>July 1, 2019</i> : Convenient location.</p>
+    <p><b>wanderlust7</b> on <i>June 15, 2019</i> : The maintenance is great!</p>
+  </div>
+
+</ion-content>

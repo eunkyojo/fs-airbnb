@@ -1,0 +1,15 @@
+| PROJECT             | COMPONENT          | FILE NAMES                                                                                                                                                                              |
+|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Consumer mobile app | Login              | fs-bnb/consumer-mobile-app/src/app/pages/login						  				                                 |
+| Consumer mobile app | Registration       | fs-bnb/consumer-mobile-app/src/app/pages/register												     |
+| Consumer mobile app | User Profile       | fs-bnb/consumer-mobile-app/src/app/pages/tab5										                                 |
+| Consumer mobile app | List of Properties | fs-bnb/consumer-mobile-app/src/app/pages/tab1													     |
+| Provider mobile app | Login              | fs-bnb/provider-mobile-app/src/app/pages/login						  				                                 |
+| Provider mobile app | Registration       | fs-bnb/provider-mobile-app/src/app/pages/register												     |
+| Provider mobile app | User Profile       | fs-bnb/provider-mobile-app/src/app/pages/										                                 |
+| Provider mobile app | List of Properties | fs-bnb/provider-mobile-app/src/app/pages/tab1													     |
+| Provider mobile app | List of Bookings   | fs-bnb/provider-mobile-app/src/app/pages/tab1													     |
+| Admin Panel         | Users              | fs-bnb/admin-panel/src/app/components/users													     |
+| Admin Panel         | Bookings           | fs-bnb/admin-panel/src/app/components/														     |
+| API                 | Users              | fs-bnb/API/src/models/user-model & Rubric-file-structure/API/src/api/user-routes									     |
+| API                 | Bookings           | fs-bnb/API/src/models/booking-model & Rubric-file-structure/API/src/api/booking-routes								     |

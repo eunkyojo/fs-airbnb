@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Your Rentals
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list lines="none">
+      <div *ngFor="let listing of listings">
+        <ion-card>
+          <img src={{listing.imageUrl}}>
+          <h3>{{listing.name}}</h3>
+        </ion-card>
+      </div>
+    </ion-list>
+</ion-content>

@@ -1,0 +1,21 @@
+{
+    "users":[
+      {
+        "id":"1",
+        "name":"John Doe",
+        "cellPhone":"0829123465",
+        "email":"john@mail.com",
+        "password":"P@ssword",
+        "role":"provider"
+      },
+      {
+        "id":"2",
+        "name":"Joe Soap",
+        "cellPhone":"0829123466",
+        "email":"joe@mail.com",
+        "password":"P@ssword",
+        "role":"provider"
+      }
+    ]
+  }
+  

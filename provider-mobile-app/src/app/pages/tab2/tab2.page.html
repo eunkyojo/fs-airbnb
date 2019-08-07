@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Create a New Rental
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form #form="ngForm" method="post">
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input [(ngModel)]="name" name="name"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label position="floating">Description</ion-label>
+      <ion-input [(ngModel)]="description" name="description"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Location</ion-label>
+      <ion-input [(ngModel)]="location" name="location"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Price Per Night</ion-label>
+      <ion-input [(ngModel)]="pricePerNight" name="pricePerNight"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Image URL</ion-label>
+      <ion-input [(ngModel)]="imageUrl" name="imageUrl"></ion-input>
+    </ion-item>
+  
+    <ion-button type="submit" expand="full" color="primary" (click)="newlisting()">Create</ion-button>
+  </form>
+</ion-content>

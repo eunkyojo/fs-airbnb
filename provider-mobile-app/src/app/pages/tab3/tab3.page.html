@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Update Your Rentals
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngFor="let listing of listings">
+    <ion-card (click)="updateListing(listing.id)">
+      <img src={{listing.imageUrl}}>
+      <h3>{{listing.name}}</h3>
+    </ion-card>
+  </div>
+</ion-content>

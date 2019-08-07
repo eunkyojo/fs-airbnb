@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Explore
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-searchbar></ion-searchbar>
+
+<ion-content>
+  <div *ngFor="let listing of listings">
+    <ion-card (click)="bookingForm(listing.id)">
+      <img src={{listing.imageUrl}}>
+      <h3>{{listing.name}}</h3>
+      <p>Location: {{listing.location}}</p>
+      <p>Price per night ($): {{listing.pricePerNight}}</p>
+      <p>Image source: {{listing.imageUrl}}</p>
+    </ion-card>
+  </div>
+</ion-content>
